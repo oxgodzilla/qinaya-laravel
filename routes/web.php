@@ -20,6 +20,8 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/iniciar', [HomeController::class, 'iniciar'])->name('iniciar');
+Route::get('/registrarse', [HomeController::class, 'registrarse'])->name('registrarse');
 Route::get('/planes', [HomeController::class, 'planes'])->name('planes');
 Route::get('/refire', [HomeController::class, 'refire_gana'])->name('refire.gana');
 Route::get('/preguntas', [HomeController::class, 'preguntas_frecuentes'])->name('preguntas.frecuentes');

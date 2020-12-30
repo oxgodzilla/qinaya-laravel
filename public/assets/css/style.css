@@ -1767,9 +1767,6 @@ section.services-3play {
     border-radius: 50%;
 }
 
-section
-
-.3
 play_combo {
     padding: 20px 0px;
 }
@@ -1822,7 +1819,7 @@ input.form-control.email_box_refire {
 
 .line_height_refire {
     width: 92%;
-    border: 2px solid #cd1e50;
+    border: 2px solid #777;
     position: relative;
     top: 10em;
 }
@@ -2356,11 +2353,12 @@ input[type=radio] {
 
 .form-group input, .form-group select {
     line-height: 2.9;
-    border: 1px solid rgba(18, 18, 18, .2);
+    border: 1px solid rgba(18,18,18,.2);
     padding: 0 10px;
     min-height: 48px;
     outline: unset;
-    width: 100%;
+    min-width: 280px;
+    border-radius: 10px;
 }
 
 .submit-btn {
@@ -3024,10 +3022,11 @@ input[type=radio] {
         margin-right: 7%;
         float: right;
     }
+}
 
+@media (min-width: 1200px) {
     .gratis-title {
-        text-align: center;
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 
@@ -3048,3 +3047,234 @@ input[type=radio] {
         width: 80%;
     }
 }
+
+.myRightCtn
+{
+    position: relative;
+    background-image: #BD3352;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.myLeftCtn
+{
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+.myLeftCtn header
+{
+    color: #BD3352;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.row
+{
+    height: 100%;
+
+}
+
+.myCard
+{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+
+.myRightCtn header
+{
+    color: #fff;
+    font-size: 44px;
+}
+
+.box
+{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+
+}
+
+.myLeftCtn .myInput
+{
+    line-height: 1;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+}
+
+@media (max-width: 575px) {
+    .myLeftCtn .myInput {
+        width: 230px;
+    }
+}
+.myLeftCtn .myInput:focus
+{
+    outline: none;
+}
+
+.myForm
+{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+
+.myLeftCtn .butt
+{
+    background:  #111;
+    color: #fff;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+    box-shadow: 0px 10px 41px -11px rgba(0,0,0,0.7);
+}
+
+.myLeftCtn .butt:hover
+{
+    background:  #BD3352;
+    color: #fff;
+}
+
+.myLeftCtn .butt:focus
+{
+    outline: none;
+}
+
+
+.myLeftCtn .fas
+{
+    position: relative;
+    color: #BD3352;
+    left: 36px;
+}
+
+.butt_out
+{
+    background:  transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid#fff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+}
+
+.butt_out:hover
+{
+    border: 2px solid#eecbff;
+}
+
+
+.butt_out:focus
+{
+    outline: none;
+}
+
+.myCard header {
+    background-color: #0000;
+}
+
+a.forgot:hover {
+    color:  #BD3352;
+}
+
+.greeklabel {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Hide the default checkbox */
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+/* Creating a custom checkbox
+based on demand */
+.geekmark {
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+}
+
+/* Specify the background color to be
+shown when hovering over checkbox */
+.greeklabel:hover input ~ .geekmark {
+    background-color: #BD3352;
+}
+
+/* Specify the background color to be
+shown when checkbox is active */
+.greeklabel input:active ~ .geekmark {
+    background-color: #BD3352;
+}
+
+/* Specify the background color to be
+shown when checkbox is checked */
+.greeklabel input:checked ~ .geekmark {
+    background-color: #BD3352;
+}
+
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.geekmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Display checkmark when checked */
+.greeklabel input:checked ~ .geekmark:after {
+    display: block;
+}
+
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and
+showing only two border to make it look
+like a tickmark */
+.greeklabel .geekmark:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+

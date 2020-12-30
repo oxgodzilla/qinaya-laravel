@@ -15,9 +15,9 @@
         <li class="nav-item"><a class="nav-link" href="{{ route('refire.gana') }}">Refire & Gana</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" >Preguntas Frecuentes</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" >Más</a></li>
-        <li class="nav-item"><a class="nav-link leftest-link" href="{{ route('preguntas.frecuentes') }}" >Registrarse</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" >Iniciar Sesión</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" ><i class="fab fa-facebook-f"></i></a></li>
+        <li class="nav-item"><a class="nav-link leftest-link" href="{{ route('registrarse') }}" >Registrarse</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('iniciar') }}" >Iniciar Sesión</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" ><i class="fab fa-facebook-f"></i></a></li>
         <!-- <div class="dropdown">
           <button type="button" class="btn btn-primary dropdown-toggle dropdown-mas" data-toggle="dropdown">
            Mas
