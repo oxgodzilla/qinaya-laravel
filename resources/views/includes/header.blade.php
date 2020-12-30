@@ -1,6 +1,6 @@
 <!-- start header -->
 <header>
-  <nav class="  navbar navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand" href="{{ route('home') }}">
       <img src="assets/img/qinaya_img/logo.webp">
     </a>
@@ -43,7 +43,7 @@
           </div>
         </div> -->
       </ul>
-    </div>  
+    </div>
   </nav>
 </header>
 <!-- end header -->

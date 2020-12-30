@@ -2,10 +2,12 @@
 
 @section('content')
     <section class="home-slider">
-        <div class="container">
+        <div class="container-fluid">
+            <div class="home-img float-right">
+                <img src="assets/img/slider-img.png">
+            </div>
             <div class="content head_content">
-                <h2>Convierte tu TV en <span class="color_pink">Compu<span> por $20.000 cop</h2>
-                <button class="btn btn-primary registrate">Registrate</button>
+                <p>Convierte tu TV en <span class="color_pink">&nbsp;Compu</span>&nbsp;por $20.000 cop</p>
             </div>
         </div>
     </section>
@@ -55,7 +57,7 @@
 
         <!--product-area-fade-effect-->
         <section class="section_0 bg-bk">
-            <div class="d-flex justify-content-center" style="font-size: 4vw;">¿Qué necesitas?</div>
+            <div class="d-flex justify-content-center" style="font-size: 41px;">¿Qué necesitas?</div>
             <div class="d-flex justify-content-center">
                 <div class="circle">
                     <div class="circle-hover">
@@ -64,7 +66,7 @@
                     </div>
                 </div>
                 <!--01-->
-                <div class="sign-align" data-testid="richTextElement">
+                <div class="sign-align">
                     <h4 class="font_4" style="font-size: 41px; text-align: center;">
                         <div style="font-size:41px;">
                             <div style="color:#FFFFFF">
@@ -80,7 +82,7 @@
                     </div>
                 </div>
                 <!--02-->
-                <div class="sign-align" data-testid="richTextElement">
+                <div class="sign-align">
                     <h4 class="font_4" style="font-size: 41px; text-align: center;">
                         <div style="font-size:41px;">
                             <div style="color:#FFFFFF">
@@ -92,16 +94,14 @@
                 <div class="circle">
                     <div class="circle-hover">
                         <img src="assets/img/icon/15 2.png" style="width: 60px; height: 60px;"/>
-                        <p style="line-height: 20px;">Descarga<br>
-                        <div>Qinaya
+                        <p style="line-height: 20px;">Descarga<br>Qinaya
                             <sup style="font-size: 5px;">TM</sup><br>
                             <span style="color:#cd1e50; font-size: 10px; margin-left: 1em;">Compu</span>
-                        </div>
                         </p>
                     </div>
                 </div>
                 <!--03-->
-                <div class="sign-align" data-testid="richTextElement">
+                <div class="sign-align">
                     <h4 class="font_4" style="font-size: 41px; text-align: center;">
                         <div style="font-size:41px;">
                             <div style="color:#FFFFFF">
@@ -182,8 +182,9 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="testi-text-wrap">
-                                        <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
-                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
+                                        <h2 class="testi-text text-uppercase"><b>JUAN Y LUISA</b></h2>
+                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio. Con Qinaya Compu ambos pueden estudiar al mismo tiempo.
+                                            Ya no hay más peleas en casa. </p>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
