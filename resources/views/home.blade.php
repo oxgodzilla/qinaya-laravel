@@ -25,7 +25,7 @@
                     <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 92%;"/></div>
                 </div>
                 <ul id="progressbar" class="text-center gratis" style="display: flex; justify-content: center; position: relative;">
-                    <button class="btn btn-success" style="position: absolute; bottom: 0; height: 50px;">REGÍSTRATE</button>
+                    <a class="btn btn-success" href="{{ route('registrarse') }}" style="position: absolute; bottom: 0; height: 42px; color: #fff;">REGÍSTRATE</a>
                 </ul>
             </div>
             <div class="gratis-img"><img src="assets/img/testimonials/32.png" style="width: 100%;"></div>
