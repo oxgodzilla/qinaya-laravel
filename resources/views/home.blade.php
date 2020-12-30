@@ -172,7 +172,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="assets/img\testimonials/33.png" class="rounded custimg" alt="user image" />
+                                    <img src="assets/img/testimonials/33.png" class="rounded custimg" alt="user image" />
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="assets/img\testimonials/34.png" class="rounded custimg" alt="user image" />
+                                    <img src="assets/img/testimonials/34.png" class="rounded custimg" alt="user image" />
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="assets/img\testimonials/35.png" class="rounded custimg" alt="user image" />
+                                    <img src="assets/img/testimonials/35.png" class="rounded custimg" alt="user image" />
                                 </div>
                             </div>
                         </div>
@@ -211,10 +211,10 @@
 
                 <!-- Left and right controls -->
                 <a class="carousel-control-prev justify-content-end" href="#testimonials" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
+                    <span class="carousel-control"><i class="fa fa-chevron-left"></i></span>
                 </a>
                 <a class="carousel-control-next justify-content-start" href="#testimonials" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
+                    <span class="carousel-control"><i class="fa fa-chevron-right"></i></span>
                 </a>
 
             </div><!-- End Portfolio Section -->

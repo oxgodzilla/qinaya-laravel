@@ -2515,3 +2515,7 @@ input[type=radio] {
     vertical-align: middle;
     align-items: center;
 } */
+
+.carousel-control {
+    color: #111;
+}
