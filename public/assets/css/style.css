@@ -644,11 +644,6 @@ section.section_0 {
     color: #fff;
 }
 
-.sign-align {
-    position: relative;
-    top: 6em;
-}
-
 .circle a {
     text-decoration: none;
     color: #1d2087;
@@ -831,11 +826,6 @@ img.img-fluid:hover {
 
 .icon_set {
     margin-top: 3rem;
-}
-
-.wow.fadeInUp.inline-table {
-    display: inline-block;
-    float: right;
 }
 
 section#contact {
@@ -2937,4 +2927,69 @@ input[type=radio] {
     padding: 5px 15px;
     background: #ddd;
     border-radius: 25px;
+}
+
+.necessary-box {
+
+}
+
+.sign-align {
+    position: relative;
+    top: 2.5em;
+    font-size: 41px;
+    font-weight:bold;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .necessary-box {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .necessary-note {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .circle {
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sign-align {
+        clear: both;
+        top: 0;
+        text-align: left;
+    }
+
+    .necessary-note {
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+
+    .sign-align {
+        padding-left: 125px;
+    }
+}
+
+@media (max-width: 575px) {
+    .circle {
+        margin: 0 10px;
+    }
+
+    .necessary-note h4 {
+        font-size: 20px;
+    }
+
+    .necessary-note p {
+        font-size: 12px;
+    }
+
+    .sign-align {
+        padding-left: 90px;
+    }
 }

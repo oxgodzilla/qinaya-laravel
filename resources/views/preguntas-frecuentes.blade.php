@@ -7,7 +7,7 @@
         <div class="row card card-border pd-l-2">
           <h6 class="section-title h1">Preguntas Frecuentes</h6>
         </div>
-        
+
         <div class="container h-100">
           <div class="d-flex justify-content-center h-100">
             <div class="searchbar">
@@ -32,7 +32,7 @@
                 <li>
                     <div id="choose" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-home-tab">
                         ¿Cómo lo descargo?
-                        <span class="fa fa-chevron-up fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-up fa-1x float-right"></span>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
@@ -49,15 +49,15 @@
                         </div>
                     </div>
                 </li>
-                
+
                 <!-- Question two -->
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         ¿Necesito un mouse y un teclado?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">Para que uses tu Qinaya Compu tal y como si fuera un compu lo mejor es que le conectaes un mouse y un teclado. Una vez conectes los accesorios a tu TV box podrás abrir la aplicación de Qinaya Compu y navegar tal y como lo harías en un compu normal.                         
+                        <div class="card-body">Para que uses tu Qinaya Compu tal y como si fuera un compu lo mejor es que le conectaes un mouse y un teclado. Una vez conectes los accesorios a tu TV box podrás abrir la aplicación de Qinaya Compu y navegar tal y como lo harías en un compu normal.
 
                       </div>
 
@@ -67,12 +67,12 @@
                       </div>
                     </div>
                 </li>
-                
+
                 <!-- Question three -->
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         ¿Cómo me registro?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
@@ -93,7 +93,7 @@
             </ul>
 
 
-        <!-- tab 1 end --> 
+        <!-- tab 1 end -->
         <!-- ********************************************************************* -->
         <!-- tab 2 start -->
 
@@ -102,8 +102,8 @@
                 <!-- Question one -->
                 <li>
                     <div id="choose" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-home-tab">
-                          ¿Sirve para TV convencional viejo (sin HDMI)?       
-                           <span class="fa fa-chevron-up fa-1x text-info pull-right"></span>
+                          ¿Sirve para TV convencional viejo (sin HDMI)?
+                           <span class="fa fa-chevron-up fa-1x float-right"></span>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion2">
                         <div class="card-body">
@@ -115,12 +115,12 @@
                         </div>
                     </div>
                 </li>
-                
+
                 <!-- Question two -->
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         ¿Requiere de antena para el TDT?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
                         <div class="card-body">
@@ -133,12 +133,12 @@
                         </div>
                       </div>
                 </li>
-                
+
                 <!-- Question three -->
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         ¿Cómo puedo acceder al play store?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
                         <div class="card-body">
@@ -162,7 +162,7 @@
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                           ¿Se conecta a internet por WiFi o por cable?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
                         <div class="card-body">
@@ -180,7 +180,7 @@
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         ¿Cuántos puertos USB trae? Tiene salida A.V?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
                         <div class="card-body">
@@ -199,7 +199,7 @@
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         ¿Puedo transmitir inalámbricamente la señal del celular al TV box?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
                         <div class="card-body">
@@ -217,7 +217,7 @@
                 <li>
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         ¿Venden al por mayor?
-                        <span class="fa fa-chevron-down fa-1x text-info pull-right"></span>
+                        <span class="fa fa-chevron-down fa-1x float-right"></span>
                     </div>
                       <div id="collapseSeven" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
                         <div class="card-body">
@@ -237,7 +237,7 @@
         </div>
       </div>
     <!-- ======= Preguntas Frecuentes Section ======= -->
-          
+
   </main>
 <!-- End #main -->
 @endsection
