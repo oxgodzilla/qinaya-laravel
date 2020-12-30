@@ -533,7 +533,7 @@ button.btn.btn-primary.registrate {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 2px solid #1d2087;
+  /* border: 2px solid #1d2087; */
 }
 
 .circle::before,
@@ -557,15 +557,12 @@ button.btn.btn-primary.registrate {
   position: relative;
   z-index: 2;
   background-color: #fff;
-  border: 2px solid #5c5eae;
+  /* border: 2px solid #5c5eae; */
   color: #5c5eae;
   line-height: 50px;
   overflow: hidden;
 }
 
-.circle:hover {
-  color: #fff;
-}
 .circle::after {
   top: 0;
   left: 0;
@@ -575,26 +572,32 @@ button.btn.btn-primary.registrate {
   -webkit-transform: scale(.5);
   transform: scale(.5);
 }
+
 /*.circle:hover::after {
   background: #5c5eae;
   border-radius: 50%;
   -webkit-transform: scale(.9);
   transform: scale(.9);
 }*/
+
 section.section_0 {
     display: inherit;
 }
-.bg-bk{
-  background: #000;
+
+.bg-bk {
+  background: #EEF0F2;
+  color: #000;
 }
+
+.bg-bk:hover {
+  background-color: #5c5eae;
+  color: #fff;
+}
+
 .sign-align {
     position: relative;
     top: 6em;
 }
-.circle:hover {
-    color: #fff;
-    background: 
-  }
 
 .circle a {
   text-decoration: none;
@@ -640,10 +643,6 @@ button.btn.btn-primary.dropdown-toggle.dropdown-mas:hover {
 img.img-fluid:hover {
     display: none;
 }
-.circle p:hover {
-    display: none;
-}
-/*circle hide effect end */
 
 /*--------------------------------------------------------------
 # About Us
@@ -932,6 +931,7 @@ footer {
 .img-fluid {
     max-width: 100%;
 }
+
 .product-list-fade-effect {
     width: 100%;
     height: auto;
@@ -939,16 +939,17 @@ footer {
     border-radius: 50%;
     overflow: hidden;
 }
+
 .text-p p {
-    font-size: 26px;width: 91%;
+    font-size: 18px;
+    width: 90%;
 }
-.input-group.mb-3 {
-    width: 80%;
-}
+
 input.form-control.email_box {
-    border: 2px solid #CD1E50 !important; 
+    /* border: 2px solid #CD1E50 !important; */
     border-radius: 0px !important;
 }
+
 span#basic-addon2 {
     color: #fff;
     background: #CD1E50;
@@ -964,7 +965,7 @@ span#basic-addon2 {
 --------------------------------------------------------------*/
 #testimonials .carousel-indicators li{width: 5px; height: 5px; border: 2px solid #fff; background-color: #000000; border-radius: 3px;}
 #testimonials .carousel-indicators li.active{background-color: #fff;}
-#testimonials .carousel-inner {padding: 0px 0px 50px 0px; background-color:rgb(250, 250, 250);}
+#testimonials .carousel-inner {padding: 0px 0px 50px 0px; background-color:#EEF0F2;}
 #testimonials .carousel-item{margin-top: 50px;}
 #testimonials .testi-text {width: 50%;float: right;color: #000;font-size: 30px;margin-right: 10%; padding-top: 5rem;}
 .testi-text-wrap p{width: 50%;float: right;color: #000;font-size: 20px;margin-right: 10%;padding-top: 20px}
@@ -2402,11 +2403,11 @@ input[type=radio] {
   opacity: 0;
   display: none;
 } */
-.circle:hover{
+/* .circle:hover{
   background-color: #545454cc;
 }
 .circle:hover a{
-      display: flex;
+    display: flex;
     opacity: 1;
     visibility: visible;
     color: #fff;
@@ -2414,4 +2415,4 @@ input[type=radio] {
     height: 100%;
     vertical-align: middle;
     align-items: center;
-}
+} */

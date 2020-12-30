@@ -50,16 +50,16 @@
   <!-- End About Us Section -->
 
 <!--product-area-fade-effect--> 
-<section class="section_0">
-
-  <div class="bg-bk d-flex justify-content-center">
-        <div class="circle circle1">
-          <div class="circle-hover">
-            <img src="assets/img/icon/14 2.png" />
-            <p>TV</p>
-          </div>
+<section class="section_0 bg-bk">
+  <div class="d-flex justify-content-center" style="font-size: 4vw;">¿Qué necesitas?</div>
+  <div class="d-flex justify-content-center">
+      <div class="circle">
+        <div class="circle-hover">
+          <img src="assets/img/icon/14 2.png" />
+          <p>Televisor</p>
         </div>
-         <!--01-->
+      </div>
+      <!--01-->
       <div class="sign-align" data-testid="richTextElement">
         <h4 class="font_4" style="font-size: 41px; text-align: center;">
           <span style="font-size:41px;">
@@ -69,7 +69,7 @@
           </span>
         </h4>
       </div>
-        <div class="circle circle2">
+        <div class="circle">
           <div class="circle-hover">
             <img src="assets/img/icon/4.png" />
             <p>TV Box</p>
@@ -85,10 +85,15 @@
           </span>
         </h4>
       </div>
-        <div class="circle circle3">
+        <div class="circle">
           <div class="circle-hover">
             <img src="assets/img/icon/15 2.png" style="width: 60px; height: 60px;"/>
-            <p>Descarga<br>Qinaya <br><span style="color:#cd1e50;">COMPU</span></p>
+            <p style="line-height: 20px;">Descarga<br>
+              <span>Qinaya 
+                <sup style="font-size: 5px;">TM</sup><br>
+                <span style="color:#cd1e50; font-size: 10px; margin-left: 1em;">Compu</span>
+              </span>
+            </p>
           </div>
         </div>
          <!--03-->
@@ -122,14 +127,14 @@
           </div>
           <div class="col-lg-8" data-aos="fade-left">
               <div class="text-p">
-                 <h2 class="text-center"><b>¿No tienes un TV Box?</b></h2><br>
-                  <p>¡Nuestro TV Box el Qinaya 3Play sale el 1 de Febrero del 2021! Inscríbete a la lista de espera y al pagar 1 año de Qinaya Compu te mandamos tu TV Box completamente <b>gratis</b></p>
+                 <h2 class="text-center">¿No tienes un TV Box?</h2><br>
+                  <p>Nuestro TV Box el Qinaya 3PIay sale el XXXX inscríbete a la lista de espera y al pagar 1 año de Qinaya Compu te mandarnos tu TV Box completamente gratis</p>
               </div>
 
-              <div class="input-group mb-3">
-                <input type="text" class="form-control email_box" placeholder="Email*" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group col-lg-8" style="margin:0 auto;">
+                <input type="text" class="form-control email_box text-center" placeholder="Correo Electrónico" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <span class="input-group-text mail_btn" id="basic-addon2"><b>></b></span>
+                  <span class="input-group-text mail_btn" id="basic-addon2"><b>Entra</b></span>
                 </div>
               </div>
 
