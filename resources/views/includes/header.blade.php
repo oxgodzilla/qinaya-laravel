@@ -1,24 +1,28 @@
 <!-- start header -->
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="{{ route('home') }}">
-      <img src="assets/img/qinaya_img/logo.webp">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item"><span class="nav-link alone-link">¡Usa tu Compu!</span></li>
-        <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('planes') }}">Planes & Precios</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('refire.gana') }}">Refire & Gana</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" >Preguntas Frecuentes</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" >Más</a></li>
-        <li class="nav-item"><a class="nav-link leftest-link" href="{{ route('registrarse') }}" >Registrarse</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('iniciar') }}" >Iniciar Sesión</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" ><i class="fab fa-facebook-f"></i></a></li>
-        <!-- <div class="dropdown">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="{{ route('home') }}">
+            <img src="assets/img/qinaya_img/logo.webp">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><span class="nav-link alone-link">¡Usa tu Compu!</span></li>
+                <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('planes') }}">Planes & Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('refire.gana') }}">Refire & Gana</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}">Preguntas
+                        Frecuentes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" style="margin-right: 12px;">Más</a></li>
+                <li class="nav-item"><a class="nav-link leftest-link" href="javascript:;">&nbsp;</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('registrarse') }}">Registrarse</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('iniciar') }}">Iniciar Sesión</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <!-- <div class="dropdown">
           <button type="button" class="btn btn-primary dropdown-toggle dropdown-mas" data-toggle="dropdown">
            Mas
           </button>
@@ -42,8 +46,8 @@
             <a class="dropdown-item" href="#">Cerrar sesión</a>
           </div>
         </div> -->
-      </ul>
-    </div>
-  </nav>
+            </ul>
+        </div>
+    </nav>
 </header>
 <!-- end header -->
