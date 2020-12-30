@@ -247,8 +247,7 @@
                                     <img src="assets/img/icon/yt.png">
                                 </div>
                                 <br>
-                                <p><i class="fa fa-comment"></i> <a href=""
-                                                                    style="color:#000;">qinayalatam@gmail.com</a></p>
+                                <p><a href="javascript:;" style="color:#000;">qinayalatam@gmail.com</a></p>
                                 <br>
                                 <div class="icon_logo">
                                     <img src="assets/Q_image/ícono-colores-en-negro.png">
@@ -263,22 +262,22 @@
                             <form id="contact-form" action="#" method="get">
 
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-12">
+                                    <div class="col-md-6 col-sm-12 pl-0">
                                         <input type="text" class="form-control" name="name" placeholder="Nombre"
                                                required="">
                                     </div>
-                                    <div class="col-md-6 col-sm-12 ">
+                                    <div class="col-md-6 col-sm-12 pr-0">
                                         <input type="email" class="form-control" name="email" placeholder="Email"
                                                required="">
                                     </div>
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-12">
+                                    <div class="col-md-6 col-sm-12 pl-0">
                                         <input type="text" class="form-control" name="name" placeholder="Celular"
                                                required="">
                                     </div>
-                                    <div class="col-md-6 col-sm-12 ">
+                                    <div class="col-md-6 col-sm-12 pr-0">
                                         <input type="text" class="form-control" name="name" placeholder="Direccion"
                                                required="">
                                     </div>
