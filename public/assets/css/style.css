@@ -1671,8 +1671,8 @@ h1.Text-cesde {
     border-bottom-right-radius: 40px;
 }
 
-.col-sm-4.mb-3-gana {
-    padding: 40px;
+.mb-3-gana {
+    padding: 40px 0;
 }
 
 .section_3Play .row {
@@ -1802,7 +1802,7 @@ input.form-control.email_box_refire {
 }
 
 .row.refire_gana {
-    background: #f1f1f1;
+    background: #EEF0F2;
 }
 
 .icon_set_refire {
@@ -1810,6 +1810,7 @@ input.form-control.email_box_refire {
     display: inline-flex;
     margin-left: 0em;
     float: left;
+    text-align: center;
 }
 
 /*step wizard start*/
@@ -1944,22 +1945,17 @@ img.icon-trans-refire {
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 6em;
 }
 
-section.prem-sec {
-    background: #f0f0f0;
-}
-
-.col-sm-5.refire-2 {
+.refire-2 {
     padding: 35px;
 }
 
-.col-sm-5.refire-2 h6 {
+.refire-2 h6 {
     float: left !important;
 }
 
-.col-sm-5.refire-2 h4 {
+.refire-2 h4 {
     text-align: left;
 }
 
@@ -1967,26 +1963,27 @@ h1.text-center.como_head {
     margin: 2em;
 }
 
-.text-center.col-sm-11.refire-gana-para {
-    width: 100%;
-    display: inline-flex;
-    background: rgb(250 250 250);
+.prem-sec {
+    background-color: #EEF0F2;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.refire-gana-para {
+    background-color: #EEF0F2;
     border-bottom-right-radius: 40px;
 }
 
-.col-sm-3.Cómo-refire h3 {
-
-}
-
-.col-sm-3.Cómo-refire p {
+.Cómo-refire p {
     font-size: 15px;
     width: 100%;
+    border-top: #111 2px solid;
+    margin-top: 10px;
 }
 
-.col-sm-3.Cómo-refire {
+.Cómo-refire {
     display: inline-block;
 }
-
 
 /*==============================================================*/
 
@@ -2836,4 +2833,108 @@ input[type=radio] {
 
 .carousel-control {
     color: #111;
+}
+
+.refire-gana-title {
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.refire-gana-title .lead {
+    font-size: 1em;
+}
+
+.refire-gana-title h2 {
+    font-size: 1.8em;
+}
+
+.refire-gana-title h4 {
+    font-size: 1.4em;
+    color: #706D6D;
+}
+
+.refire-social-width {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.refire-social-width i {
+    margin: 10px;
+}
+
+@media (min-width: 1600px) {
+
+    .refire-social-width i {
+        padding: 5%;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1599px) {
+    .refire-gana-title {
+        font-size: 16px;
+    }
+
+    .refire-social-width i {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1349px) {
+    .refire-gana-title {
+        font-size: 12px;
+    }
+
+    .refire-social-width i {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+    .refire-gana-title {
+        font-size: 10px;
+    }
+
+    .refire-social-width i {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+    .refire-gana-title {
+        font-size: 8px;
+    }
+
+    .refire-social-width i {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .refire-gana-title {
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .refire-social-width i {
+        font-size: 30px;
+    }
+}
+
+.red-arrow {
+    float: left;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.refire-gana-para .refire-social-width i {
+    font-size: 36px!important;
+}
+
+.round-num {
+    padding: 5px 15px;
+    background: #ddd;
+    border-radius: 25px;
 }

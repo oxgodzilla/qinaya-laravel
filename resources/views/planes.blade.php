@@ -2,6 +2,9 @@
 
 @section('content')
     <main id="main">
+        <div class="">
+            <img src="assets/img/planes.png" style="width: 100%;">
+        </div>
         <!-- ======= About Us Section ======= -->
         <div class="pricing-box-container">
 
