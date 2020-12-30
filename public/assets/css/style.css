@@ -1839,7 +1839,6 @@ input.form-control.email_box_refire {
 img.icon-trans-refire {
     position: relative;
     top: 8em;
-    left: 10em;
 }
 
 #progressbar #step1:before {
@@ -1915,6 +1914,12 @@ img.icon-trans-refire {
 #progressbar li.active:before,
 #progressbar li.active:after {
     background: #f1f1f1;
+}
+
+@media (max-width: 991px) {
+    #progressbar.gratis {
+        height: 100px;
+    }
 }
 
 /*step wizard end*/
@@ -2991,5 +2996,55 @@ input[type=radio] {
 
     .sign-align {
         padding-left: 90px;
+    }
+}
+
+.gratis-section {
+    padding: 0;
+}
+
+.gratis-box {
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.gratis-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gratis-img {
+    width: 35%;
+}
+
+@media (min-width: 576px) {
+    .gratis-box {
+        width: 50%;
+        margin-right: 7%;
+        float: right;
+    }
+
+    .gratis-title {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .gratis-title {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .gratis-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .gratis-img {
+        width: 80%;
     }
 }
