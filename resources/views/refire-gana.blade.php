@@ -31,7 +31,7 @@
         </div>
         <!-- wizard start -->
         <div class="container my-5">
-            <h4 class="display-4 text-center mb-5 text-uppercase">¿Cómo funciona?</h4>
+            <h4 class="display-4 text-center text-uppercase">¿Cómo funciona?</h4>
             <div class="line_height_refire"></div>
             <img src="assets/img/IMGs Landing/icon_tran.png" class="icon-trans-refire" width="60" height="60"/>
             <ul id="progressbar" class="text-center">
