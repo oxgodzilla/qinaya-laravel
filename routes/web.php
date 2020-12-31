@@ -19,7 +19,7 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
-Route::redirect('/', '/home');
+Route::redirect('/', '/iniciar');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/iniciar', [HomeController::class, 'iniciar'])->name('iniciar');
 Route::get('/registrarse', [HomeController::class, 'registrarse'])->name('registrarse');
