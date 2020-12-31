@@ -4,7 +4,7 @@
     <section class="home-slider">
         <div class="container-fluid">
             <div class="home-img float-right">
-                <img src="assets/img/slider-img.png">
+                <img src="assets/img/slider-img.png" style="width: 100%;">
             </div>
             <div class="content head_content">
                 <p>Convierte tu TV en <span class="color_pink">&nbsp;Compu</span>&nbsp;por $20.000 cop</p>
