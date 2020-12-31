@@ -2,7 +2,7 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        var form = document.getElementById("iniciarForm");
+        var form = document.getElementById("registarseForm");
         form.addEventListener("submit", function(event) {
             if (form.checkValidity() == false) {
                 event.preventDefault();
