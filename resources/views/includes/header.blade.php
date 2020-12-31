@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{ route('refire.gana') }}">Refire & Gana</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}">Preguntas Frecuentes</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" style="margin-right: 12px;">Más</a></li>
-                <li class="nav-item"><a class="nav-link leftest-link" href="javascript:;">&nbsp;</a>
+                <li class="nav-item"><span class="nav-link leftest-link" href="javascript:;"></span>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('registrarse') }}">Registrarse</a>
                 </li>

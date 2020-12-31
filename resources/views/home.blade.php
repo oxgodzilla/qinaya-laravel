@@ -34,40 +34,44 @@
             </div>
         </section>
 
-        <section id="about-us" class="about-us">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row">
-                    <div class="col-lg-3 h2_font" data-aos="fade-right">
-                        <h2>¿Quieres probarlo <span class="color_pink">gratis?</span></h2>
-                    </div>
-                    <div class="col-lg-9" data-aos="fade-left">
-                        <div class="col-sm-2  sec-inline">
-                            <img src="assets/img/icon/19 2.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
-                            <p><b>Regístrate</b></p>
-                        </div>
-
-                        <div class="col-sm-2 sec-inline">
-                            <img src="assets/img/icon/15 2.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
-                            <!-- <h3>Header 2</h3> -->
-                            <p><b>Descarga</b> el app desde tu TV Box</p>
-                        </div>
-
-                        <div class="col-sm-2 sec-inline">
-                            <img src="assets/img/icon/8.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
-                            <!--  <h3>Header 3</h3> -->
-                            <p><b>Conéctate</b> a tu compu virtual</p>
-                        </div>
-
-                        <div class="col-sm-2 sec-inline">
-                            <img src="assets/img/icon/Subscribe_black.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
-                            <!-- <h3>Header 3</h3> -->
-                            <p><b>¿Te gusta?</b>Compra tu plan diario, semanal o mensual</p>
-                        </div>
-                        <button class="btn btn-primary registrate">Registrate</button>
+        <section>
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <h2 class="text-center">Ventajas</h2>
                     </div>
                 </div>
-
+                <ul class="nav nav-tabs tabs-marker justify-content-around" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home" data-toggle="tab" href="#home-tab2" role="tab" aria-controls="home" aria-selected="true">
+                            <img class="normal" src="assets/img/icon/24.png"><img class="active" src="assets/img/icon/25.png">
+                            Home<span class="marker"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile" data-toggle="tab" href="#profile-tab2" role="tab" aria-controls="profile" aria-selected="false">
+                            <img class="normal" src="assets/img/icon/26.png"><img class="active" src="assets/img/icon/27.png">
+                            Profile<span class="marker"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact" data-toggle="tab" href="#contact-tab2" role="tab" aria-controls="contact" aria-selected="false">
+                            <img class="normal" src="assets/img/icon/28.png"><img class="active" src="assets/img/icon/29.png">
+                            Contact<span class="marker"></span></a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab2" role="tabpanel" aria-labelledby="home-tab">
+                        <h4>PENSANDO EN TU BOLSILLO</h4>
+                        <p>Por solo $20.000 COP mensuales puedes tener un compu en casa, solo necesitas tu TV y un TV Box. Un computador equivalente te costaría más de 2 M COP.</p>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab2" role="tabpanel" aria-labelledby="profile-tab">
+                        <h4>A TU RITMO</h4>
+                        <p>Con Qinaya pagas mes a mes y puedes cancelar tu suscripción cuando tu quieras y sin enredos. ¿No puedes pagar un mes? No hay apuro cancela tu plan en cualquier momento.</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab2" role="tabpanel" aria-labelledby="contact-tab">
+                        <h4>OPTIMIZAMOS TU INTERNET</h4>
+                        <p>Qinaya Compu optimiza tu internet. Como tu compu está en la nube, sin importar tu internet, cuentas con la velocidad de carga y descarga de nuestros servidores que es de más de 15 megas.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -94,15 +98,14 @@
 
         <!--product-area-fade-effect-->
         <section class="section_0 bg-bk">
-            <div class="d-flex justify-content-center mb-5" style="font-size: 41px;">¿Qué necesitas?</div>
+            <div class="d-flex justify-content-center mb-5" style="font-size: 72px;">¿Qué necesitas?</div>
             <div class="necessary-box">
                 <div class="circle">
                     <div class="circle-hover">
-                        <div class="float-left">
-                            <img src="assets/img/icon/14 2.png"/>
-                            <p>Televisor</p>
-                        </div>
+                        <img src="assets/img/icon/20.png"/>
+                        <p>Televisor</p>
                     </div>
+                    <a href="#section_1">Cualquier tipo de TV. Desde el más barrigón hasta el más guapetón</a>
                 </div>
                 <div class="necessary-note">
                     <h4>Televisor</h4>
@@ -114,9 +117,10 @@
                 </div>
                 <div class="circle">
                     <div class="circle-hover">
-                        <img src="assets/img/icon/4.png"/>
+                        <img src="assets/img/icon/21.png"/>
                         <p>TV Box</p>
                     </div>
+                    <a href="#section_2">Cualquier TV box android al que le puedas conectar tu mouse</a>
                 </div>
                 <div class="necessary-note">
                     <h4>TV Box</h4>
@@ -128,12 +132,13 @@
                 </div>
                 <div class="circle">
                     <div class="circle-hover">
-                        <img src="assets/img/icon/15 2.png" style="width: 60px; height: 60px;"/>
+                        <img src="assets/img/icon/22.png" style="width: 60px; height: 60px;"/>
                         <p style="line-height: 20px;">Descarga<br>Qinaya
                             <sup style="font-size: 5px;">TM</sup><br>
                             <span style="color:#cd1e50; font-size: 10px; margin-left: 1em;">Compu</span>
                         </p>
                     </div>
+                    <a href="#section_3">La puedes descargar desde tu Google Play store desde cualquier android.</a>
                 </div>
                 <div class="necessary-note">
                     <h4>Descargar Qinaya Compu</h4>
@@ -145,9 +150,10 @@
                 </div>
                 <div class="circle">
                     <div class="circle-hover">
-                        <img src="assets/img/icon/6.png"/>
+                        <img src="assets/img/icon/23.png"/>
                         <p>Accesorios</p>
                     </div>
+                    <a href="#section_4">Ponle un mouse y un teclado a tu TV Box y ¡listo! tienes un compu nuevo en casa</a>
                 </div>
                 <div class="necessary-note">
                     <h4>Accesorios</h4>
@@ -201,50 +207,48 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="testi-text-wrap">
-                                        <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
-                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
+                                <div class="carousel-img">
                                     <img src="assets/img/testimonials/33.png" class="rounded custimg" alt="user image" />
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="testi-text-wrap">
-                                        <h2 class="testi-text text-uppercase"><b>JUAN Y LUISA</b></h2>
-                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio. Con Qinaya Compu ambos pueden estudiar al mismo tiempo.
-                                            Ya no hay más peleas en casa. </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <img src="assets/img/testimonials/34.png" class="rounded custimg" alt="user image" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-7">
+                                <div class="carousel-text">
                                     <div class="testi-text-wrap">
                                         <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
                                         <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
-                                    <img src="assets/img/testimonials/35.png" class="rounded custimg" alt="user image" />
-                                </div>
                             </div>
-                        </div>
                     </div>
+{{--                    <div class="carousel-item">--}}
+{{--                        <div class="container">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-md-7">--}}
+{{--                                    <div class="testi-text-wrap">--}}
+{{--                                        <h2 class="testi-text text-uppercase"><b>JUAN Y LUISA</b></h2>--}}
+{{--                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio. Con Qinaya Compu ambos pueden estudiar al mismo tiempo.--}}
+{{--                                            Ya no hay más peleas en casa. </p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-5">--}}
+{{--                                    <img src="assets/img/testimonials/34.png" class="rounded custimg" alt="user image" />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="carousel-item">--}}
+{{--                        <div class="container">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-md-7">--}}
+{{--                                    <div class="testi-text-wrap">--}}
+{{--                                        <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>--}}
+{{--                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-5">--}}
+{{--                                    <img src="assets/img/testimonials/35.png" class="rounded custimg" alt="user image" />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
 
                 <!-- Left and right controls -->
