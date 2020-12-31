@@ -3550,6 +3550,14 @@ like a tickmark */
     color: #CD1E50;
 }
 
+#collapsibleNavbar .navbar-nav a.dropdown-item {
+    text-align: right;
+}
+
+#collapsibleNavbar .dropdown-menu {
+    left: -100px;
+}
+
 .red-text {
     color: #cd1e50;
 }
