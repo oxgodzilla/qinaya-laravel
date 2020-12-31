@@ -15,7 +15,7 @@
 
         </form>
 
-        <form class="container needs-validation" id="registarseForm" novalidate>
+        <form class="container needs-validation" id="registarseForm" novalidate action="{{ route('gratis') }}">
             <div class="osep">o</div>
 
             <div class="form-group">
@@ -24,7 +24,7 @@
             </div>
 
             <div class="form-group has-feedback">
-                <label>¿Cuál es tu correo electrónico?</label>
+                <label>Confirma el correo electrónico</label>
                 <input type="email" class="form-control" name="email" required>
                 <div class="invalid-feedback">
                     <i class="ion-android-alert"></i> Es necesario que confirmes tu correo electrónico.
@@ -41,7 +41,7 @@
 
             <div class="form-group">
                 <label>Confirma tu contraseña</label>
-                <input type="text" class="form-control" placeholder="Vuelve a escribir tu contraseña" required>
+                <input type="password" class="form-control" placeholder="Vuelve a escribir tu contraseña" required>
             </div>
 
             <div class="form-group">

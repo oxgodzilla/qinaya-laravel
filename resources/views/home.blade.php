@@ -207,48 +207,43 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container">
-                                <div class="carousel-img">
-                                    <img src="assets/img/testimonials/33.png" class="rounded custimg" alt="user image" />
-                                </div>
-                                <div class="carousel-text">
-                                    <div class="testi-text-wrap">
-                                        <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
-                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
-                                    </div>
+                            <div class="carousel-img">
+                                <img src="assets/img/testimonials/33.png" class="rounded custimg" alt="user image" />
+                            </div>
+                            <div class="carousel-text">
+                                <div class="testi-text-wrap">
+                                    <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
+                                    <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
                                 </div>
                             </div>
+                        </div>
                     </div>
-{{--                    <div class="carousel-item">--}}
-{{--                        <div class="container">--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col-md-7">--}}
-{{--                                    <div class="testi-text-wrap">--}}
-{{--                                        <h2 class="testi-text text-uppercase"><b>JUAN Y LUISA</b></h2>--}}
-{{--                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio. Con Qinaya Compu ambos pueden estudiar al mismo tiempo.--}}
-{{--                                            Ya no hay más peleas en casa. </p>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-md-5">--}}
-{{--                                    <img src="assets/img/testimonials/34.png" class="rounded custimg" alt="user image" />--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="carousel-item">--}}
-{{--                        <div class="container">--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col-md-7">--}}
-{{--                                    <div class="testi-text-wrap">--}}
-{{--                                        <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>--}}
-{{--                                        <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-md-5">--}}
-{{--                                    <img src="assets/img/testimonials/35.png" class="rounded custimg" alt="user image" />--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="carousel-img">
+                                <img src="assets/img/testimonials/34.png" class="rounded custimg" alt="user image" />
+                            </div>
+                            <div class="carousel-text">
+                                <div class="testi-text-wrap">
+                                    <h2 class="testi-text text-uppercase"><b>JUAN Y LUISA</b></h2>
+                                    <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="carousel-img">
+                                <img src="assets/img/testimonials/35.png" class="rounded custimg" alt="user image" />
+                            </div>
+                            <div class="carousel-text">
+                                <div class="testi-text-wrap">
+                                    <h2 class="testi-text text-uppercase"><b>Natalia</b></h2>
+                                    <p>Juan y Luisa solo tienen 1 compu en casa y no les queda otra que compartir. Sienten que no pueden avanzar al mismo ritmo que sus compañeros de clase porque no pueden tener el mismo tiempo de estudio.<br><br>Con Qinaya Compu ambos pueden estudiar  al mismo tiempo. Ya no hay más peleas en casa. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Left and right controls -->

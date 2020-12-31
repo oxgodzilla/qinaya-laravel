@@ -27,7 +27,7 @@
 
             <!-- card 1 -->
 
-            <div class="pricing-box active">
+            <div class="pricing-box">
                 <div class="card-level">Plus</div>
                 <h2 class="card-title">Semanal</h2>
                 <div class="clearfix"><img src="assets/img/plane.png" class="card-image"></div>

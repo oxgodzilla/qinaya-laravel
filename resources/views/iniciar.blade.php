@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
 
-        <form class="container needs-validation" id="iniciarForm" novalidate>
+        <form action="{{ route('gratis') }}" class="container needs-validation" id="iniciarForm" novalidate>
             <header><img src="assets/img/qinaya_img/logo.webp" width="240"></header>
 
             <div class="form-group has-feedback">

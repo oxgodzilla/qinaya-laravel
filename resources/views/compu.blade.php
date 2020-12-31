@@ -22,7 +22,7 @@
 
             <!-- card 1 -->
 
-            <div class="pricing-box active">
+            <div class="pricing-box">
                 <h2 class="card-title">Tu Plan</h2>
                 <div class="clearfix">
                     <img class="normal" src="assets/img/icon/tu-plan.png" height="100">
@@ -39,7 +39,7 @@
 
             <!-- card 2 -->
 
-            <div class="pricing-box">
+            <div class="pricing-box highlighted">
                 <h2 class="card-title">Tu Compu</h2>
                 <div class="clearfix">
                     <img class="normal" src="assets/img/icon/Tu-compu.png" height="100">
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="card-foot">
-                    <a>COMPRAR PLAN<img class="normal" src="assets/img/icon/FLECHA.png" width="40"><img class="active" src="assets/img/icon/FLECHA.en-blanco.png" width="40"></a>
+                    <a>COMPRAR <img class="normal" src="assets/img/icon/FLECHA.png" width="40"><img class="active" src="assets/img/icon/FLECHA.en-blanco.png" width="40"></a>
                 </div>
             </div>
 

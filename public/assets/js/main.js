@@ -169,4 +169,10 @@
 
 })(jQuery);
 
-// testimonial js 
+// testimonial js
+$('#compu .pricing-box').click(function () {
+    $('#compu .pricing-box').each(function () {
+        $(this).removeClass('active');
+    })
+    $(this).addClass('active');
+});

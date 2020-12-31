@@ -19,7 +19,8 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::redirect('/', '/home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/iniciar', [HomeController::class, 'iniciar'])->name('iniciar');
 Route::get('/registrarse', [HomeController::class, 'registrarse'])->name('registrarse');
 Route::get('/compu', [HomeController::class, 'compu'])->name('compu');
@@ -32,6 +33,4 @@ Route::get('/qinaya_3play', [HomeController::class, 'qinaya_3play'])->name('qina
 Route::get('/quienes_somos', [HomeController::class, 'quienes_somos'])->name('quienes.somos');
 Route::get('/cart', [HomeController::class, 'cart'])->name('cart');
 Route::get('/profile', [HomeController::class, 'profile'])->name('profile');
-
-
-
+Route::get('/gratis', [HomeController::class, 'gratis'])->name('gratis');
