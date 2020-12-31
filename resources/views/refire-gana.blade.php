@@ -30,9 +30,10 @@
             </div>
         </div>
         <!-- wizard start -->
-        <div class="container my-5">
-            <h4 class="display-4 text-center text-uppercase">¿Cómo funciona?</h4>
+        <div class="container my-5" style="position: relative;">
+            <h4 class="display-4 text-center text-uppercase" style="padding: 0 20px;">¿Cómo funciona?</h4>
             <div class="line_height_refire"></div>
+            <div class="line_height_passed"></div>
             <img src="assets/img/IMGs Landing/icon_tran.png" class="icon-trans-refire" width="60" height="60"/>
             <ul id="progressbar" class="text-center">
                 <li class="active" id="step1">

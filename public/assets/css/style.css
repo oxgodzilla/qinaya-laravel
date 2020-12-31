@@ -1821,7 +1821,7 @@ input.form-control.email_box_refire {
     color: #455A64;
     padding-left: 0px;
     margin-top: 30px;
-    height: 200px;
+    height: 250px;
 }
 
 .d-md-block {
@@ -1835,6 +1835,20 @@ input.form-control.email_box_refire {
     border: 4px solid #EEF0F2;
     position: relative;
     top: 10em;
+}
+
+.line_height_passed {
+    width: 16%;
+    border: 4px solid #cd1e50;
+    position: absolute;
+    top: 14.7em;
+}
+
+@media (max-width: 767px) {
+    .line_height_passed {
+        width: 17%;
+        top: 18.8em;
+    }
 }
 
 #progressbar li {
@@ -1925,6 +1939,10 @@ img.icon-trans-refire {
 #progressbar li.active:before,
 #progressbar li.active:after {
     background: #f1f1f1;
+}
+
+#progressbar.gratis {
+    height: 200px;
 }
 
 @media (max-width: 991px) {
