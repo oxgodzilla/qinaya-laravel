@@ -21,6 +21,11 @@ class HomeController extends Controller
         return view('registrarse');
     }
 
+    public function compu()
+    {
+        return view('compu');
+    }
+
     public function planes()
     {
         return view('planes');

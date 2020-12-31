@@ -9,12 +9,11 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item"><span class="nav-link alone-link">¡Usa tu Compu!</span></li>
+                <li class="nav-item"><a class="nav-link alone-link" href="{{ route('compu') }}">¡Usa tu Compu!</a></li>
                 <li class="nav-item active"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('planes') }}">Planes & Precios</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('refire.gana') }}">Refire & Gana</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}">Preguntas
-                        Frecuentes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}">Preguntas Frecuentes</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('preguntas.frecuentes') }}" style="margin-right: 12px;">Más</a></li>
                 <li class="nav-item"><a class="nav-link leftest-link" href="javascript:;">&nbsp;</a>
                 </li>

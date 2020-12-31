@@ -13,24 +13,84 @@
     </section>
 
     <main id="main">
-        <!-- ======= About Us Section ======= -->
+
+        <section>
+            <div class="container-fluid">
+                <div class="section-top-border">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/img/testimonials/31.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 mt-sm-20">
+                            <h2 class="mb-3">Qinaya es la alternativa más fácil para tener un computador</h2>
+                            <ul>
+                                <li>Usa el TV que ya tienes y lo convierte en compu</li>
+                                <li>Funciona desde cualquier navegador o descargando una app</li>
+                                <li>Pagas mes a mes o y puedes cancelado cuando tú decidas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us" class="about-us">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col-lg-3 h2_font" data-aos="fade-right">
+                        <h2>¿Quieres probarlo <span class="color_pink">gratis?</span></h2>
+                    </div>
+                    <div class="col-lg-9" data-aos="fade-left">
+                        <div class="col-sm-2  sec-inline">
+                            <img src="assets/img/icon/19 2.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
+                            <p><b>Regístrate</b></p>
+                        </div>
+
+                        <div class="col-sm-2 sec-inline">
+                            <img src="assets/img/icon/15 2.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
+                            <!-- <h3>Header 2</h3> -->
+                            <p><b>Descarga</b> el app desde tu TV Box</p>
+                        </div>
+
+                        <div class="col-sm-2 sec-inline">
+                            <img src="assets/img/icon/8.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
+                            <!--  <h3>Header 3</h3> -->
+                            <p><b>Conéctate</b> a tu compu virtual</p>
+                        </div>
+
+                        <div class="col-sm-2 sec-inline">
+                            <img src="assets/img/icon/Subscribe_black.png" class="pull-left img-rounded" style="margin-right:10px;width:100px;height:100px;"><br>
+                            <!-- <h3>Header 3</h3> -->
+                            <p><b>¿Te gusta?</b>Compra tu plan diario, semanal o mensual</p>
+                        </div>
+                        <button class="btn btn-primary registrate">Registrate</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <section class="gratis-section">
             <div class="gratis-box">
                 <h4 class="gratis-title">¿Quieres probarlo g<u>ratis</u>?</h4>
-                <div class="line_height_refire" style="top: 3em; width: 100%;"></div>
+                <div class="line_height_refire"></div>
                 <div class="row" style="position: relative;">
-                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: -2%;"/></div>
-                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 28%;"/></div>
-                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 58%;"/></div>
-                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 92%;"/></div>
+                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 50%;"/></div>
+                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 47%;"/></div>
+                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 45%;"/></div>
+                    <div class="col-3"><img src="assets/img/icon/green_round.png" class="icon-trans-refire" width="20" height="20" style="top: 2em; left: 40%;"/></div>
                 </div>
                 <ul id="progressbar" class="text-center gratis" style="display: flex; justify-content: center; position: relative;">
-                    <a class="btn btn-success" href="{{ route('registrarse') }}" style="position: absolute; bottom: 0; height: 42px; color: #fff;">REGÍSTRATE</a>
+                    <li> Regístrate</li>
+                    <li> Descarga el app desde tu TV Box</li>
+                    <li> Conéctate atu compu virtual</li>
+                    <li> ¿Te gusta? Compra tu plan</li>
+                    <a class="btn btn-success" href="{{ route('registrarse') }}" style="position: absolute; bottom: 0; font-size:26px; width: 260px; height: 54px; color: #fff;">REGÍSTRATE</a>
                 </ul>
             </div>
             <div class="gratis-img"><img src="assets/img/testimonials/32.png" style="width: 100%;"></div>
         </section>
-        <!-- End About Us Section -->
 
         <!--product-area-fade-effect-->
         <section class="section_0 bg-bk">
