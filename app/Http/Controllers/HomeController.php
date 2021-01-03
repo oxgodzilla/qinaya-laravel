@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     public function compu()
     {
-        return view('compu');
+        return view('gratis');
     }
 
     public function planes()

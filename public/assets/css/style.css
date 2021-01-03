@@ -1097,10 +1097,6 @@ span#basic-addon2 {
     padding: 0 2rem;
 }
 
-img.rounded.custimg {
-    height: 500px;
-}
-
 @media (max-width: 992px) {
     #testimonials .testi-text {
         width: 90%;
@@ -3424,6 +3420,7 @@ like a tickmark */
 
 .carousel-img {
     width: 100%;
+    text-align: center;
 }
 
 .carousel-text {
@@ -3440,6 +3437,12 @@ like a tickmark */
     .carousel-text {
         width: 60%;
         text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-img img.rounded.custimg {
+        width: 70%;
     }
 }
 
