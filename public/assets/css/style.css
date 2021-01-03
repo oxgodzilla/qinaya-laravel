@@ -643,8 +643,8 @@ section.section_0 {
 }
 
 .bg-bk {
-    background: #111;
-    color: #fff;
+    background: #EEF0F2;
+    color: #111;
 }
 
 /* .bg-bk:hover {
@@ -2973,17 +2973,13 @@ input[type=radio] {
     border-radius: 25px;
 }
 
-.necessary-box {
-
-}
-
 .sign-align {
     position: relative;
     top: 2.5em;
     font-size: 41px;
     font-weight:bold;
     text-align: center;
-    color:#FFFFFF;
+    color:#111;
 }
 
 @media (min-width: 992px) {
