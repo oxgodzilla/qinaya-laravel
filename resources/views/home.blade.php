@@ -287,7 +287,7 @@
                                 <p><a href="javascript:;" style="color:#000;">qinayalatam@gmail.com</a></p>
                                 <br>
                                 <div class="icon_logo">
-                                    <img src="assets/Q_image/ícono-colores-en-negro.png">
+                                    <img src="assets/img/icon/ícono-colores-en-negro.png">
                                 </div>
                             </div>
                         </div>
